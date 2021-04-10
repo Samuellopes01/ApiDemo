@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/Id"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="ID"
+        android:gravity="start"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="start"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Email"
+        android:gravity="start"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/avt_url"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="start"
+        android:text="URL"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"/>
+
+</LinearLayout>
